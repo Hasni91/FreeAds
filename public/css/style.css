@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(243 244 246);
+}
+.menu{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : 0 auto;
+}
+.menu div{
+    margin-top: 3vh;
+}
+.menu h1{
+    color: #27ae59;
+    font-size: 35px;
+}
+.menu div a{
+    text-decoration: none;
+    color: black;
+    margin-left: 3vw;
+    font-size: 25px;
+}
+
+a:hover{
+    border-bottom: 3px solid #27ae59;
+    transition-duration: 500ms;
+}
+.content{
+    transition-duration: 500ms;
+    border: 5px solid #27ae59;
+    width: 90%;
+    height: 400px;
+    margin: 10vh auto;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+}
+.content h1{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.content:hover{
+    transition-duration: 500ms;
+    border: 5px solid black;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.content:hover h1{
+    color: #27ae59;
+    transition-duration: 500ms;
+}
+button{
+    background-color: #27ae59;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+button:hover{
+    transition-duration: 150ms;
+    font-size: 22px;
+}
+
+.content a {
+    text-decoration: none;
+    border: 0px;
+}
+
+#title{
+    color: #27ae59;
+    font-size: 100px;
+    animation: mymove 5s infinite;
+}
